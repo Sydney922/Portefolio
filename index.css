@@ -1,0 +1,251 @@
+body{
+     margin: 0;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     flex-direction: column;
+     background-color: #FFFFFF;
+     height: 980px;
+}
+header{
+     background-color: #04132A;
+     height: 110px;
+     width: 100%;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+     display: flex;
+     position: relative;
+     
+}
+.head_content{
+     margin-left: 70px;
+     display: flex;
+     justify-content: space-between;
+}
+.element{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: -55px;
+     width: max-content;
+
+}
+#projet, #veille , #formation{
+     padding: 100px;
+     width: max-content;
+     text-align: center;
+   
+}
+#projet{
+     width: 832.79px;
+     height: 58px;
+     top: 2004px;
+     left: 78.98px;
+     gap: 0px;
+     opacity: 0px;
+     font-family: Raleway;
+     font-size: 44px;
+     font-style: italic;
+     font-weight: 800;
+     line-height: 57.2px;
+     text-align: left;
+     color: #FFFFFF;
+     text-decoration: none;
+     padding: 20px;
+     width: 100px;
+     text-align: center;
+     margin-left: 140px;
+     margin-right: 0;
+     transition: .2s ease-in;
+}
+#projet:hover{
+     color: #DBAF52;
+}
+#veille{
+    
+     height: 58px;
+     top: 2004px;
+     left: 78.98px;
+     gap: 0px;
+     opacity: 0px;
+     font-family: Raleway;
+     font-size: 44px;
+     font-style: italic;
+     font-weight: 800;
+     line-height: 57.2px;
+     text-align: left;
+     color: #FFFFFF;
+     text-decoration: none;
+     padding: 100px;
+     margin-right: 0;
+     text-align: center;
+     margin-left: 95px;
+     transition: .2s ease-in;
+}
+#veille:hover{
+     color: #DBAF52;
+}
+#formation{
+     width: 832.79px;
+     height: 58px;
+     top: 2004px;
+     left: 78.98px;
+     gap: 0px;
+     opacity: 0px;
+     font-family: Raleway;
+     font-size: 44px;
+     font-style: italic;
+     font-weight: 800;
+     line-height: 57.2px;
+     text-align: left;
+     color: #FFFFFF;
+     text-decoration: none;
+     padding: 20px;
+     width: 70px;
+     text-align: center;
+    margin-left: 80px;
+    transition: .2s ease-in;
+}
+#formation:hover{
+     color: #DBAF52;
+}
+
+.texte{
+     width: 560px;
+     height: 290px;
+     top: 3864px;
+     left: 90px;
+     gap: 0px;
+     opacity: 0px;
+     font-family: Raleway;
+     font-size: 20px;
+     font-style: italic;
+     font-weight: 400;
+     line-height: 30px;
+     text-align: left;
+}
+
+
+#titre{
+     width: 384px;
+     height: 39px;
+     top: 3785px;
+     left: 73px;
+     gap: 0px;
+     opacity: 0px;
+     font-family: Raleway;
+     font-size: 48px;
+     font-style: italic;
+     font-weight: 400;
+     line-height: 30px;
+     text-align: left;
+     margin-left: -35px;
+
+
+}
+.body_container{
+     margin-left: -700px;
+     margin-top: 100px;
+}
+
+#t2{
+     width: 620px;
+     height: 28px;
+     top: 4194px;
+     left: 90px;
+     gap: 0px;
+     opacity: 0px;
+     font-family: Raleway;
+     font-size: 28px;
+     font-style: italic;
+     font-weight: 400;
+     line-height: 36.4px;
+     text-align: left;
+
+
+}
+
+span{
+     color: #DBAF52;
+}
+#butt{
+     width: Hug (174px)px;
+     height: Fixed (60px)px;
+     top: 4242px;
+     left: 90px;
+     padding: 12px 20px 12px 20px;
+     gap: 16px;
+     border-radius: 6px 0px 0px 0px;
+     opacity: 0px;
+     font-family: Raleway;
+     font-size: 28px;
+     font-style: italic;
+     font-weight: 600;
+     line-height: 36.4px;
+     text-align: left;
+     color: #FFFFFF;
+     background-color: #04132A;
+     margin-top: 150px;
+     margin-left: -400px;
+     transition: .2s ease-in;
+}
+#butt:hover{
+     background-color: #FFFFFF;
+     color: #04132A;
+    
+}
+.photo{
+    
+     width: 630px;
+     height: 400px;
+     background: #04132A;
+     box-shadow: 0px 12px 30px 8px rgba(0, 0, 0, 0.15);
+     flex-shrink: 0;
+     transition: transform 0.3s;
+     margin-top: -560px;
+     margin-left: 700px;
+}
+.photo:hover{
+     transform: scale(1.03);
+}
+
+#p1{
+     width: 242px;
+     height: 238.74px;
+     margin-top: 77px;
+     margin-left: 277px;
+     margin-top: -140px;
+}
+
+#tp{
+     width:225px;
+     height: 60px;
+     top: 580px;
+     left: 970px;
+     gap: 0px;
+     opacity: 0px;
+     font-family: Raleway;
+     font-size: 44px;
+     font-style: italic;
+     font-weight: 800;
+     line-height: 57.2px;
+     text-align: left;
+     color: #FFFFFF;
+     margin-left: 26px;
+}
+#desc{
+     width: 279px;
+     height: 28px;
+     top: 4194px;
+     left: 90px;
+     gap: 0px;
+     opacity: 0px;
+     font-family: Raleway;
+     font-size: 28px;
+     font-style: italic;
+     font-weight: 400;
+     line-height: 36.4px;
+     text-align: left;
+     color: #FFFFFF;
+     margin-left: 26px;
+     margin-top: 20px;
+}
